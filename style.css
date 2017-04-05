@@ -1,0 +1,67 @@
+/*
+ * I created these styles, but copied them from my personal project.
+ */
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	
+	background-color: rgb(62, 80, 80);
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+    box-sizing: content-box;
+    height: 0;
+}
+
+#table {
+	display: none;
+}
+
+#content {
+	width: 50%;
+	margin: 0 auto;
+
+	color: #313f47;
+	background-color: #f5f6f6;
+
+	text-align: center;
+	margin-top: 5em;
+	margin-bottom: 5em;
+	padding: 1em;
+
+	border-radius: 4px;
+}
+
+
+input[type="submit"], input[type="reset"], input[type="button"], button, .button {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    -moz-transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    -webkit-transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    -ms-transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    display: inline-block;
+    height: 2.75em;
+    line-height: 2.75em;
+    padding: 0 1.5em;
+    background-color: transparent;
+    border-radius: 4px;
+    border: solid 1px #c8cccf;
+    color: #414f57 !important;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+}
